@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  
+}
+.nav_left{
+  margin: 20px;
+}
+.nav_middle ul a{
+  color: white;
+   margin: 20px;
+  padding: 10px;
+
+}
+.nav_middle ul a:hover{
+  background-color: white;
+  color:black;
+  border-radius: 8px;
+  transition: 2s;
+  cursor: pointer;
+}
+.nav_middle ul {
+  
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+ 
+}
+button{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 20px 30px;
+  text-decoration-line: none;
+  border: 1px solid white;
+
+  
+}
+button:hover{
+  background-color: white;
+  color:black;
+  transition: 2s;
+  cursor: pointer;
+}
+.button{
+  background-color: red;
+  color: white;
+  text-decoration-line: none;
+  border: 1px solid  red;
+
+  padding:15px 30px;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  margin: -10px;
+}
+.express_card .container_1{
+ display: flex; 
+ flex-direction: row;
+justify-content: space-around; 
+ flex-wrap: wrap; 
+ background-color: black; 
+ /* margin-right: -15px;
+margin-left: -15px;  */
+border: 1px solid black;
+}
+.card_button{
+  margin: 20px 80px;
+
+}
+.page_width{
+  background-color: black;
+  color: white;
+  padding: 70px 0px;
+  margin: -10px;
+  width: 100%;
+  height: 250px;
+}
+/* .content_1 img{
+  width: 80%;
+} */
+.heading {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  color: white;
+  padding: 10px 20px;
+}
+p{
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.content_1,.content_2,.content_3{
+  background-color: white;
+  display: grid;
+
+   margin: 40px 20px; 
+}
+img{
+  padding: 10px 15px;
+}
+
+.after_container{
+  margin: -10px;
+  padding: 80px;
+  background-color:rgb(15, 17, 14);
+  color: white;
+}
+h2{
+  color: red;
+  margin: 10px;
+}
+.express_sec .box_left{
+  align-items: center;
+}
+
+.container_box_1{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 35px 0px;
+}
+
+.container_box_1 h2{
+  font-style: normal;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.container_box_1 h3{
+  font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.get_discussion{
+  margin: 40px 0px;
+  padding: 10px 30px;
+}
+.container_box_1 a{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.7);
+margin-bottom: 10px;
+}
+
+.express_sec{
+  background-color: black;
+  
+
+}
+
+.container_1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.sec_container_1 .container_1{
+  background-color: black;
+  padding: 15px 15px;
+}
+.contant_1,.contant_2,.contant_3 {
+  background-color: white;
+  display: grid;
+  padding: 15px 30px;
+  text-align: center;
+}
+.social_feed{
+  background-color: black;
+  margin: -10px;
+}
+.restourant{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* justify-content: center; */
+  /* padding: 10px; */
+margin: 0px 40px;
+}
+.food {
+  width: 17%;
+
+  margin: 10px;
+  /* border: 2px solid grey; */
+  cursor: pointer;
+  transition: 0.6s;
+  /* border-radius: 15px; */
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #000000;
+  padding: 6rem 0;
+  color: white;
+}
+
+.footer .grid-4 {
+  display: grid;
+  grid-template-columns: 3.5fr 2fr 2fr 3fr;
+}
+
+.grid-4-col {
+  padding: 0 1.7rem;
+  text-decoration: none;
+  
+}
+.grid-4-col .footer-links ul li{
+  text-decoration: none;
+}
+
+
+.footer .title-sm  {
+  color: #fafafa;
+  margin-bottom: 0.9rem;
+  
+}
+
+
+.footer .text {
+  color: #aaa;
+  text-align: left;
+}
+
+
+.copyright .text {
+  color: #7b7b7b;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 10px 40px;
+  
+  
+}
+
+hr{
+  margin: 100px 10px 10px 10px;
+}
